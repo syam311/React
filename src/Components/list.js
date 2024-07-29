@@ -1,4 +1,4 @@
-import { fruits } from "./datas";
+import { fruits } from "./Fruit";
 
 
 const List = () => {
