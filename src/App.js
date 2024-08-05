@@ -1,32 +1,14 @@
 
-
-
-import React from 'react';
-import './App.module.css';
-import { fakeappi } from './Components/data';
-import Customcard from './Components/card';
+import Condition from "./Components/conditionalRendering/conditionalredering";
 
 
 function App() {
   return (
-    <div className="App">
-      {fakeappi.map((eachdata) => {
-        return (
-          <div key={eachdata.id}>
-            <Customcard
-              key={eachdata.id}
-              image={eachdata.image}
-              id={eachdata.id}
-              title={eachdata.title}
-              price={eachdata.price}
-              description={eachdata.description}
-              category={eachdata.category} />
-          
-          </div>
-         
-        );
-      })}
     
+          
+          <div>
+         
+    <Condition/>
     </div>
   );
 }
