@@ -26,7 +26,7 @@ const Condition=()=>{
             </>
             
             )
-            {greeting && <h1>thnks for login</h1>}
+           
             :
             (
             <>

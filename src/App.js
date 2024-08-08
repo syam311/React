@@ -1,15 +1,13 @@
+import Subscribebutton from "./Components/states/subscribebutton";
 
-import Condition from "./Components/conditionalRendering/conditionalredering";
 
-
-function App() {
+const App=() =>{
   return (
     
           
-          <div>
-         
-    <Condition/>
-    </div>
+     <>
+   <Subscribebutton/>
+     </>
   );
 }
 
