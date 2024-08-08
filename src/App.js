@@ -1,3 +1,4 @@
+import Count from "./Components/states/count";
 import Todo from "./Components/states/todo_list";
 
 
@@ -7,9 +8,9 @@ const App=() =>{
           
      <>
    {/* <Subscribebutton/> */}
- <Todo/>
+ {/* <Todo/> */}
    {/* <Subscribetion/> */}
-
+<Count/>
      </>
   );
 }
