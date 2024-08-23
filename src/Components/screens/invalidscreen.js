@@ -7,7 +7,7 @@ const Invalidscreen =()=>{
         <Navbars/>
         <h3>Invalid screen 404 error</h3>
         <button>
-            <Link to={"/"} style={{textDecoration:"none"}}>Go to home </Link>
+            <Link to={"/home"} style={{textDecoration:"none"}}>Go to home </Link>
         </button>
         </>
     )
