@@ -7,6 +7,7 @@ const Uncontrol =()=>{
         event.preventDefault();
         const emailEnter=emailRef.current.value;
         const passwordEnter=passRef.current.value;
+        console.log(emailEnter,passwordEnter    )
 
     }
 
