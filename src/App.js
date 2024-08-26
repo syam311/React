@@ -1,11 +1,14 @@
 
-import Navigations from "./Components/navigation/navigation";
+import Uncontrol from "./Components/Forms/uncontrolledforms";
+
 
 const App=()=>{
  return(
     <>
     
-<Navigations/>
+{/* <Navigations/> */}
+{/* <Useeffectex1/> */}
+<Uncontrol/>
 
  </> 
  )
