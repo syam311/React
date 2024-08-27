@@ -1,7 +1,7 @@
 import { useRef } from "react"
 
 const Uncontrol =()=>{
-    const  emailRef=useRef();
+    const  emailRef=useRef();  
     const passRef=useRef();
     const submitHandler=(event)=>{
         event.preventDefault();
